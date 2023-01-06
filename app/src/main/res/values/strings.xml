@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">baybayin</string>
+
+    <string name="discription">Baybayin is a pre-Spanish Philippine writing system. It is a member of the Brahmic family and is recorded as being in use in the 16th century. It continued to be used during the Spanish colonization of the Philippines up until the late 19th Century.
+
+The term Baybay literally means “to spell” in Tagalog. Baybayin was extensively documented by the Spanish. Some have attributed it the name Alibata, but this name is incorrect. (The term “Alibata” was coined by Paul Rodriguez Verzosa after the arrangement of letters of the Arabic alphabet  alif, ba, ta (alibata), “f” having been eliminated for euphony’s sake.” ) Versoza’s reasoning for creating this word was unfounded because no evidence of the baybayin was ever found in that part of the Philippines and it has absolutely no relationship to the Arabic language. Furthermore, no ancient script native to Southeast Asia followed the Arabic arrangement of letters, and regardless of Versoza’s connection to the word alibata, its absence from all historical records indicates that it is a totally modern creation. The present author does not use this word in reference to any ancient Philippine script.
+
+Modern scripts in the Philippines, descended from Baybayin, are Hanunó’o, Buhid, Tagbanwa, the Kapampangan script and the Bisaya script.
+Baybayin is one of a dozen or so individual writing systems used in Southeast Asia, nearly all of which are abugidas where any consonant is pronounced with the inherent vowel a following it— diacritical marks being used to express other vowels (this vowel occurs with greatest frequency in Sanskrit, and also probably in all Philippine languages).
+
+The term Baybay literally means “to spell” in Tagalog. Baybayin was extensively documented by the Spanish. Some have attributed it the name Alibata, but this name is incorrect. (The term “Alibata” was coined by Paul Rodriguez Verzosa after the arrangement of letters of the Arabic alphabet  alif, ba, ta (alibata), “f” having been eliminated for euphony’s sake.” ) Versoza’s reasoning for creating this word was unfounded because no evidence of the baybayin was ever found in that part of the Philippines and it has absolutely no relationship to the Arabic language. Furthermore, no ancient script native to Southeast Asia followed the Arabic arrangement of letters, and regardless of Versoza’s connection to the word alibata, its absence from all historical records indicates that it is a totally modern creation. The present author does not use this word in reference to any ancient Philippine script.
+
+Modern scripts in the Philippines, descended from Baybayin, are Hanunó’o, Buhid, Tagbanwa, the Kapampangan script and the Bisaya script.
+Baybayin is one of a dozen or so individual writing systems used in Southeast Asia, nearly all of which are abugidas where any consonant is pronounced with the inherent vowel a following it— diacritical marks being used to express other vowels (this vowel occurs with greatest frequency in Sanskrit, and also probably in all Philippine languages).
+
+Origins
+
+Baybayin was noted by the Spanish priest Pedro Chirino in 1604 and Antonio de Morga in 1609 to be known by most, and was generally used for personal writings, poetry, etc. According to William Henry Scott, there were some datus from the 1590s who could not sign affidavits or oaths, and witnesses who could not sign land deeds in the 1620s. There is no data on when this level of literacy was first achieved, and no history of the writing system itself. There are at least six theories about the origins of Baybayin.
+
+Kawi
+
+Kawi originated in Java, and was used across much of Maritime Southeast Asia.
+Laguna Copperplate Inscription.
+
+The Laguna Copperplate Inscription is the earliest known written document found in the Philippines.
+Butuan Ivory Seal
+
+It is a legal document, and has inscribed on it a date of Saka era 822, corresponding to April 21, 900 AD Laguna Copperplate Inscription#cite note-bibingka-1. It was written in the Kawi script in a variety of Old Malay containing numerous loanwords from Sanskrit and a few non-Malay vocabulary elements whose origin is ambiguous between Old Javanese and Old Tagalog. One hypothesis therefore reasons that, since Kawi is the earliest attestation of writing on the Philippines, then Baybayin may be descended from Kawi.
+
+A second example of Kawi script can be seen on the Butuan Ivory Seal, though it has not been dated.
+
+An earthenware burial jar, called the “Calatagan Pot,” found in Batangas is inscribed with characters strikingly similar to Baybayin, and is claimed to have been inscribed ca. 1300 AD. However, its authenticity has not yet been proven.
+
+
+Old Sumatran “Malay” scripts
+
+Another hypothesis states that a script or script used to write one of the Malay languages was adopted and became Baybayin. In particular, the Pallava script from Sumatra is attested to the 7th century.
+
+Sulawesi
+
+The Liboginese and/or Makassarese scripts of Sulawesi could have been introduced or borrowed and adapted into Baybayin.
+
+
+Old Assamese
+
+Assamese is a variant of Eastern Nagari script, a precursor to Devanagari. This hypothesis states that a version of this script was introduced to the Philippines via Bengal, which evolved into Baybayin.
+
+Cham
+
+Finally, an early Cham script from Champa—in what is now southern Vietnam and southeastern Cambodia—could have been introduced or borrowed and adapted into Baybayin.
+
+Characteristics
+
+The writing system is an abugida system using consonant-vowel combinations. Each character, written in its basic form, is a consonant ending with the vowel “A”. To produce consonants ending with the other vowel sounds, a mark is placed either above the consonant (to produce an “E” or “I” sound) or below the consonant (to produce an “O” or “U” sound). The mark is called a kudlit. The kudlit does not apply to stand-alone vowels. Vowels themselves have their own glyphs. There is only one symbol for D or R as they were allophones in most languages of the Philippines, where D occurred in initial, final, pre-consonantal or post-consonantal positions and R in intervocalic positions. The grammatical rule has survived in modern Filipino, so that when a d is between two vowels, it becomes an r, as in the words dangál (honour) and marangál (honourable), or dunong (knowledge) and marunong (knowledgeable), and even raw for daw (he said, she said, they said, it was said, allegedly, reportedly, supposedly) and rin for din (also, too) after vowels. This variant of the script is not used for Ilokano, Pangasinan, Bikolano, and other Philippine languages to name a few, as these languages have separate symbols for D and R.
+
+
+Two styles of writing
+
+Pre-Spanish “style”
+In the original form of the Baybayin script, a stand-alone consonant (consonants not ending with any vowel sound) cannot be indicated unambiguously; therefore, such consonants were simply not written, and the reader would fill in the missing consonants through context. For example, the letters n and k in a word like bundók (mountain) were omitted, so that it was spelled bu-do.
+Virama Kudlit “style”
+
+The original writing method was particularly difficult for the Spanish priests who were translating books into the native language. Because of this, Francisco López introduced his own kudlit in 1620 that cancelled the implicit a vowel sound. The kudlit was in the form of a “+” sign, in reference to Christianity. This cross-shaped kudlit functions exactly the same as the virama in the Devanagari script of India. In fact, Unicode calls this kudlit the Tagalog Sign Virama. See sample above in Characteristics Section.
+
+“Nga” character
+
+A single character represented “nga”. The current version of the Filipino alphabet still retains “ng” as a digraph, viz, a single letter composed of two characters.
+
+Punctuation
+
+Words written in baybayin were written in a continuous flow, and the only form of punctuation was a single vertical line, or more often, a pair of vertical lines (||). These vertical lines fulfill the function of a comma, period, or unpredictably separate sets of words.</string>
+</resources>
