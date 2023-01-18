@@ -17,50 +17,49 @@
             android:layout_height="match_parent">
 
 
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/topnav"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#A1887F">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/topnav"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="#A1887F">
+                <!--        <androidx.cardview.widget.CardView-->
+                <!--            android:id="@+id/card"-->
+                <!--            android:layout_width="35dp"-->
+                <!--            android:layout_height="35dp"-->
+                <!--            android:layout_marginStart="10dp"-->
+                <!--            app:cardCornerRadius="90dp"-->
+                <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--            app:layout_constraintStart_toStartOf="parent"-->
+                <!--            app:layout_constraintTop_toTopOf="parent">-->
 
-        <!--        <androidx.cardview.widget.CardView-->
-        <!--            android:id="@+id/card"-->
-        <!--            android:layout_width="35dp"-->
-        <!--            android:layout_height="35dp"-->
-        <!--            android:layout_marginStart="10dp"-->
-        <!--            app:cardCornerRadius="90dp"-->
-        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--            app:layout_constraintStart_toStartOf="parent"-->
-        <!--            app:layout_constraintTop_toTopOf="parent">-->
+                <!--            <ImageView-->
+                <!--                android:layout_width="match_parent"-->
+                <!--                android:layout_height="match_parent"-->
+                <!--                android:layout_margin="5dp"-->
+                <!--                android:background="@color/teal_200">-->
 
-        <!--            <ImageView-->
-        <!--                android:layout_width="match_parent"-->
-        <!--                android:layout_height="match_parent"-->
-        <!--                android:layout_margin="5dp"-->
-        <!--                android:background="@color/teal_200">-->
-
-        <!--            </ImageView>-->
-        <!--        </androidx.cardview.widget.CardView>-->
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginBottom="4dp"
-            android:text="Welcome Username"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-
-            ></TextView>
+                <!--            </ImageView>-->
+                <!--        </androidx.cardview.widget.CardView>-->
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="Welcome"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+
+                    ></TextView>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card1"
@@ -76,8 +75,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="fitXY"
-                android:src="@drawable/bay1">
-            </ImageView>
+                android:src="@drawable/baby"></ImageView>
 
 
         </RelativeLayout>

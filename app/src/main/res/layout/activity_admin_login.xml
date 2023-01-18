@@ -8,7 +8,7 @@
 
     <ImageView
         android:id="@+id/image"
-        android:src="@drawable/logo"
+        android:src="@drawable/design_logo"
         android:scaleType="fitXY"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
@@ -16,15 +16,6 @@
 
     </ImageView>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Welcome Admin"
-        android:textAlignment="center"
-        android:textSize="16dp"
-        android:textColor="@color/black"
-        android:layout_marginTop="5dp"
-        android:layout_below="@id/image"></TextView>
     <LinearLayout
         android:id="@+id/line1"
         android:layout_centerInParent="true"
@@ -33,17 +24,21 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/email_address"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginStart="35dp"
             android:layout_marginEnd="35dp"
             android:paddingStart="15dp"
+            android:background="@drawable/curve_edittext"
             android:hint="Email Address"></EditText>
         <EditText
+            android:id="@+id/pass_word"
             android:inputType="textPassword"
             android:layout_marginTop="30dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/curve_edittext"
             android:layout_marginStart="35dp"
             android:layout_marginEnd="35dp"
             android:paddingStart="15dp"
@@ -57,8 +52,19 @@
         android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/line1"
+        android:textColor="@color/white"
+        android:background="@drawable/curve_button"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:text="login"></Button>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:id="@+id/progress">
+
+    </ProgressBar>
 
 </RelativeLayout>

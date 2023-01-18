@@ -16,6 +16,24 @@
         android:theme="@style/Theme.Baybayin"
         tools:targetApi="31">
         <activity
+            android:name=".admin_users_profiles"
+            android:exported="false" />
+        <activity
+            android:name=".admin_alphabet"
+            android:exported="false" />
+        <activity
+            android:name=".admin_words_page"
+            android:exported="false" />
+        <activity
+            android:name=".admin_sentences_page"
+            android:exported="false" />
+        <activity
+            android:name=".admin_history_page"
+            android:exported="false" />
+        <activity
+            android:name=".admin_add_words"
+            android:exported="false" />
+        <activity
             android:name=".admin_home"
             android:exported="false" />
         <activity

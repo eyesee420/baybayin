@@ -9,13 +9,14 @@
 
     <ImageView
         android:id="@+id/image"
-        android:src="@drawable/logo"
-        android:scaleType="fitXY"
-        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
-        android:layout_height="250dp">
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/design_logo">
 
     </ImageView>
+
 <LinearLayout
     android:id="@+id/line1"
     android:layout_centerInParent="true"
@@ -24,23 +25,28 @@
     android:orientation="vertical">
 
   <EditText
+      android:id="@+id/email_address"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"
+      android:layout_height="50dp"
       android:layout_marginStart="35dp"
       android:layout_marginEnd="35dp"
       android:paddingStart="15dp"
+      android:background="@drawable/curve_edittext"
       android:hint="Email Address"></EditText>
     <EditText
+        android:id="@+id/pass_word"
         android:inputType="textPassword"
         android:layout_marginTop="30dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginStart="35dp"
         android:layout_marginEnd="35dp"
+        android:background="@drawable/curve_edittext"
         android:paddingStart="15dp"
         android:hint="Password"></EditText>
 
 </LinearLayout>
+
 
 
     <Button
@@ -50,6 +56,8 @@
         android:layout_below="@id/line1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:background="@drawable/curve_button"
         android:text="login"></Button>
 
 
@@ -60,6 +68,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="15dp"
+        android:textColor="@color/white"
+        android:background="@drawable/curve_button"
         android:layout_marginBottom="30dp"
         android:text="login admin"></Button>
 
@@ -71,5 +81,16 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="15dp"
         android:layout_marginBottom="30dp"
+        android:textColor="@color/white"
+        android:background="@drawable/curve_button"
         android:text="register"></Button>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:id="@+id/progress">
+
+    </ProgressBar>
 </RelativeLayout>

@@ -8,63 +8,73 @@
 
     <ImageView
         android:id="@+id/image"
-        android:src="@drawable/logo"
-        android:scaleType="fitXY"
-        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
-        android:layout_height="250dp">
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/design_logo">
 
     </ImageView>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register Profile"
         android:layout_below="@id/image"
+        android:layout_marginTop="5dp"
+        android:text="Register Profile"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+        android:textColor="#A1887F"
         android:textSize="16dp"
-        android:layout_marginTop="5dp"></TextView>
+        android:textStyle="bold"></TextView>
     <LinearLayout
         android:id="@+id/line1"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="40dp"
         android:layout_below="@id/image"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/nick_name"
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginStart="35dp"
             android:layout_marginEnd="35dp"
             android:paddingStart="15dp"
+            android:background="@drawable/curve_edittext"
             android:hint="Nickname"></EditText>
         <EditText
+            android:id="@+id/full_name"
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginStart="35dp"
             android:layout_marginEnd="35dp"
             android:paddingStart="15dp"
+            android:background="@drawable/curve_edittext"
             android:hint="Fullname"></EditText>
         <EditText
+            android:id="@+id/email_address"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginStart="35dp"
             android:layout_marginEnd="35dp"
             android:paddingStart="15dp"
+            android:background="@drawable/curve_edittext"
             android:layout_marginTop="20dp"
             android:hint="Email Address"></EditText>
         <EditText
+            android:id="@+id/pass_word"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginStart="35dp"
             android:layout_marginEnd="35dp"
             android:paddingStart="15dp"
             android:inputType="textPassword"
             android:layout_marginTop="20dp"
+            android:background="@drawable/curve_edittext"
             android:hint="Password"></EditText>
 
     </LinearLayout>
@@ -78,16 +88,28 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/curve_button"
         android:text="register"></Button>
+
     <Button
-        android:id="@+id/back"
+        android:id="@+id/back_btn"
         android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/line1"
         android:layout_alignParentStart="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
-        android:text="back"></Button>
+        android:background="@drawable/curve_button"
+        android:text="back"
+        android:textColor="@color/white"></Button>
 
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"></ProgressBar>
 
 </RelativeLayout>
